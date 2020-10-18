@@ -3,7 +3,7 @@ local util = require 'nvim_lsp/util'
 
 configs.ghdlls = {
   default_config = {
-    cmd = {"ghsl-ls"};
+    cmd = {"ghdl-ls"};
     filetypes = {"vhdl", "vhd"};
     root_dir = util.root_pattern("work-obj08.cf", "work-obj08.cf", ".git", "hdl-prj.json");
   };
